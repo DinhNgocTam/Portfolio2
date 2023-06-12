@@ -5,10 +5,7 @@
 body{
     background-color: #00282E;
 }
-header{
-    display: flex;
-    flex-direction: column;
-}
+
 .image{
     width: 156px;
     height: 156px;
@@ -33,10 +30,31 @@ header{
 }
 
 .nav__list{
-    margin-left: 131px;
+
+    margin-left: 180px;
     margin-top: 81px;
 }
 
 .nav__list{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.nav__items{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+}
+.button__primary{
+    border: none;
+    background-color: #00282E;
+    color: #EF5C0A;
+    border: 1px solid #FFBD13;
+    width: 149px;
+    height: 40px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-left: 145px;
+    margin-top: 100px;
 }
