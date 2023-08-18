@@ -13,6 +13,15 @@ body{
     margin-top: 94px;
     margin-left: 126px;
 }
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 80px;
+  }
+
 .header__name{
     margin-left: 70px;
     margin-top: 20px;
